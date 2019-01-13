@@ -1,0 +1,15 @@
+const numbers = [1, 2, 3, 4, ,5];
+
+// Add something in front of the array.
+numbers.push();
+
+// Add something in front of the array.
+numbers.unshift();
+
+// Add something in the middle of the array
+numbers.splice();
+
+numbers.splice(2, 1); // Result: [1, 2, 4]
+
+// Remove something end of the array and return it.
+numbers.pop();
