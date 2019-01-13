@@ -8,8 +8,19 @@ numbers.unshift();
 
 // Add something in the middle of the array
 numbers.splice();
-
+/ Example
 numbers.splice(2, 1); // Result: [1, 2, 4]
 
 // Remove something end of the array and return it.
+numbers.pop();
+
+// Delete everything from array
+/ Solution 1
+numbers = [];
+/ Solution 2
+numbers.length = 0;
+/ Solution 3
+numbers.splice(0, numbers.length);
+/ Solution 4
+while (numbers.length > 0)
 numbers.pop();
