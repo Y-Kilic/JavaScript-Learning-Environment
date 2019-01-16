@@ -29,3 +29,7 @@ numbersArray1.pop();
 // Merge/combine two arrays
 const combinedArray = numbersArray1.concat(numbersArray2);
 / Result = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+
+// Seperate array into two arrays.
+tempArrayWithNumbers = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
+tempArrayWithNumbers.slice(2, 4)
