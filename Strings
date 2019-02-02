@@ -1,0 +1,4 @@
+// Separate string into a array by a string.
+const message = 'This is a test message';
+const parts = message.split(' ');
+/ Result ['this', 'is', 'a', 'test', 'message']
