@@ -33,3 +33,8 @@ const combinedArray = numbersArray1.concat(numbersArray2);
 // Seperate array into two arrays.
 tempArrayWithNumbers = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
 tempArrayWithNumbers.slice(2, 4)
+
+// Find element in an array
+var found = numbersArray1.find(function(element) {
+  return element > 10;
+});
