@@ -54,3 +54,4 @@ for (let number of numbers)
 console.log(number);
 / Second way
 numbers.forEach(number => console.log(number));
+numbers.forEach((index, number) => console.log(index, number));
