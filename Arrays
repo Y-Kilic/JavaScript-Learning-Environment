@@ -15,6 +15,10 @@ numbersArray1.splice(2, 1); // Result: [1, 2, 4]
 // Remove something end of the array and return it.
 numbersArray1.pop();
 
+// Joins all elements of a array by a input/string and returns a string with joined elements.
+const joined = numbersArray1.join(',');
+/Result 1,2,3,4,5
+
 // Delete everything from array
 / Solution 1
 numbersArray1 = [];
