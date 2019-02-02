@@ -39,3 +39,9 @@ tempArrayWithNumbers.slice(2, 4)
 var found = numbersArray1.find(function(number) {
   return number > 10;
 });
+
+// Find index of element in an array
+/ Returns the index number starting from 0 and if nothing is found returns -1
+var found = numbersArray1.findIndex(function(number) {
+  return number > 10;
+});
