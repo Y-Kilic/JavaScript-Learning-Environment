@@ -38,7 +38,9 @@ tempArrayWithNumbers.slice(2, 4)
 / Returns true or false, but can be edited to return something else. like a object.
 var found = numbersArray1.find(function(number) {
   return number > 10;
-});
+  });
+/ ES6 cleaner way
+var found = someTempArrayOfCourses.find(course => course.name === 'a');
 
 // Find index of element in an array
 / Returns the index number starting from 0 and if nothing is found returns -1
