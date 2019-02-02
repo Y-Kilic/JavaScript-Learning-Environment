@@ -47,3 +47,10 @@ var found = someTempArrayOfCourses.find(course => course.name === 'a');
 var found = numbersArray1.findIndex(function(number) {
   return number > 10;
 });
+
+// Iterate over array
+/ First way
+for (let number of numbers)
+console.log(number);
+/ Second way
+numbers.forEach(number => console.log(number));
