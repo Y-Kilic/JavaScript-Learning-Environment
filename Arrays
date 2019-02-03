@@ -21,6 +21,19 @@ numbersArray1.sort();
 // Sort array in descending order
 numbersArray1.reverse();
 
+// Sort array with conditions
+courses.sort(function(a, b) {
+// a < b => -1
+// a >b => 1
+// a === b => 0
+const nameA = a.name.toLowerCase();
+const nameB = b.name.toLowerCase();
+
+if (nameA < nameB) return -1;
+if (nameA > nameB) return 1;
+return 0;
+});
+
 // Joins all elements of a array by a input/string and returns a string with joined elements.
 const joined = numbersArray1.join(',');
 /Result 1,2,3,4,5
@@ -65,3 +78,5 @@ console.log(number);
 / Second way
 numbers.forEach(number => console.log(number));
 numbers.forEach((index, number) => console.log(index, number));
+
+
