@@ -15,6 +15,12 @@ numbersArray1.splice(2, 1); // Result: [1, 2, 4]
 // Remove something end of the array and return it.
 numbersArray1.pop();
 
+// Sort array in ascending order
+numbersArray1.sort();
+
+// Sort array in descending order
+numbersArray1.reverse();
+
 // Joins all elements of a array by a input/string and returns a string with joined elements.
 const joined = numbersArray1.join(',');
 /Result 1,2,3,4,5
