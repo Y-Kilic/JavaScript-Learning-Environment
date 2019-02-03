@@ -79,7 +79,12 @@ console.log(number);
 numbers.forEach(number => console.log(number));
 numbers.forEach((index, number) => console.log(index, number));
 
-// Every, checks every element in the array if it matches the condition.
+// every, checks every element in the array if it matches the condition.
 const allPositive = numbersArray1.every(function(value) {
+return value >= 0;
+});
+
+// some checks every element in the array if at least one matches the condition it's true.
+const atLeastOnePositive = numbersArray1.some(function(value) {
 return value >= 0;
 });
